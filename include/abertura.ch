@@ -1,5 +1,5 @@
 #ifdef SPANISH
-	#define STR0001 "FALLA EN LA APERTURA"
+	#define STR0001 "fala nessa abertura ia kri"
 	#define STR0002 "No fue posible abrir el archivo"
 	#define STR0003 "en modo exclusivo,"
 	#define STR0004 "es probable que este en uso."
@@ -25,15 +25,15 @@
 		#define STR0011 "Start file "
 	#else
 		#define STR0001 If( cPaisLoc $ "ANG|PTG", "Falha Na Abertura", "FALHA NA ABERTURA" )
-		#define STR0002 If( cPaisLoc $ "ANG|PTG", "Não foi possível abrir o ficheiro", "Não foi possível abrir o arquivo" )
+		#define STR0002 If( cPaisLoc $ "ANG|PTG", "Nï¿½o foi possï¿½vel abrir o ficheiro", "Nï¿½o foi possï¿½vel abrir o arquivo" )
 		#define STR0003 If( cPaisLoc $ "ANG|PTG", "Em modo exclusivo,", "em modo exclusivo," )
-		#define STR0004 If( cPaisLoc $ "ANG|PTG", "é provável que esteja em uso.", "é provavel que esteja em uso." )
+		#define STR0004 If( cPaisLoc $ "ANG|PTG", "ï¿½ provï¿½vel que esteja em uso.", "ï¿½ provavel que esteja em uso." )
 		#define STR0005 If( cPaisLoc $ "ANG|PTG", "Os dados apresentados podem estar desactualizados.", "Os dados apresentados podem estar desatualizados." )
-		#define STR0006 If( cPaisLoc $ "ANG|PTG", "Atenção:", "ATENÇÃO:" )
-		#define STR0007 If( cPaisLoc $ "ANG|PTG", "Este é o conteúdo do ficheiro", "Este é o conteúdo do arquivo" )
-		#define STR0008 "Caso exista botões de submissão"
-		#define STR0009 If( cPaisLoc $ "ANG|PTG", "Ou semelhantes, não os accione", "ou assemelhados, não os acione" )
-		#define STR0010 If( cPaisLoc $ "ANG|PTG", "Eventualmente poderão ocorrer erros de javascript, ignore-os.", "Eventualmente poderá ocorrer erros de JavaScript, ignore-os." )
-		#define STR0011 If( cPaisLoc $ "ANG|PTG", "Início do ficheiro", "Inicio do arquivo" )
+		#define STR0006 If( cPaisLoc $ "ANG|PTG", "Atenï¿½ï¿½o:", "ATENï¿½ï¿½O:" )
+		#define STR0007 If( cPaisLoc $ "ANG|PTG", "Este ï¿½ o conteï¿½do do ficheiro", "Este ï¿½ o conteï¿½do do arquivo" )
+		#define STR0008 "Caso exista botï¿½es de submissï¿½o"
+		#define STR0009 If( cPaisLoc $ "ANG|PTG", "Ou semelhantes, nï¿½o os accione", "ou assemelhados, nï¿½o os acione" )
+		#define STR0010 If( cPaisLoc $ "ANG|PTG", "Eventualmente poderï¿½o ocorrer erros de javascript, ignore-os.", "Eventualmente poderï¿½ ocorrer erros de JavaScript, ignore-os." )
+		#define STR0011 If( cPaisLoc $ "ANG|PTG", "Inï¿½cio do ficheiro", "Inicio do arquivo" )
 	#endif
 #endif
