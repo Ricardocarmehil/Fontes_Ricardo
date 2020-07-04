@@ -2,17 +2,12 @@
 #Include 'Protheus.ch'
 #Include 'FWMVCDef.ch'
 
-//Variáveis Estáticas
- Static cTitulo := "Temporária"
+//Variï¿½veis Estï¿½ticas
+ Static cTitulo := "Temporï¿½ria"
 
 /*/{Protheus.doc} zTmpCad
-	Exemplo de Modelo 1 com tabela temporária
-	@author Atilio
-	@since 22/04/2017
-	@version 1.0
-	@return Nil, Função não tem retorno
-	@example
-	u_zTmpCad()
+	Exemplo de Modelo 1 com tabela temporï¿½ria
+
 /*/
 User Function ()
 
