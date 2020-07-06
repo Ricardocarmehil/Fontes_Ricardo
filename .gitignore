@@ -1,2 +1,3 @@
-include.dir
-.vscode
+include/
+.vscode/
+.gitignore
