@@ -1,7 +1,0 @@
-#IFDEF SPANISH
-
-#ELSE
-   #IFDEF ENGLISH
-   #ELSE
-         #ENDIF
-#ENDIF

@@ -1,1 +1,0 @@
-#define IGN_PROGRAM_LIST { "h_login", "h_top", "h_news", "w_sigadw" }
