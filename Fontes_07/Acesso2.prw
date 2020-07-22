@@ -1,4 +1,4 @@
-
+//Bibliotecas
 #Include 'Protheus.ch'
 #Include 'FWMVCDef.ch'
 
@@ -25,7 +25,7 @@ Static Function MenuDef()
 Local aRotina := {}
 
 ADD OPTION aRotina TITLE 'Visualizar' ACTION 'VIEWDEF.COMP025_MVC' OPERATION 2 ACCESS 0
-ADD OPTION aRotina TITLE 'Processar' ACTION '' OPERATION 2 ACCESS 0
+ADD OPTION aRotina TITLE 'Processar' ACTION 'Get' OPERATION 2 ACCESS 0
 
 Return aRotina
 
@@ -43,7 +43,7 @@ Static Function ViewDef()
 Return FWLoadView( 'COMP011_MVC' )
 
 //-------------------------------------------------------------------
-User Function COMP25PROC()
+User Function Get()
 
 Local aArea := GetArea()
 Local cMarca := oMark:Mark()
